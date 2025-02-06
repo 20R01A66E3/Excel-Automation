@@ -1,5 +1,5 @@
 import openpyxl as xl
-from openpyxl.chart import BarChart, Reference
+from openpyxl.chart import BarChart, Reference # type: ignore
 
 
 def process_sheets(filename, sheet_name, column_to_correct, correction_value, operation_symbol):
